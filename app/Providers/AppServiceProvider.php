@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace MefistoBaal\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
