@@ -19,6 +19,6 @@ Route::get('/home', function () {
     return view('index');
 });
 
-Route::get('/portafolio', 'Portafolio@index');
+Route::get('/portfolio', 'Portafolio@index');
 
 Route::get('/portafolio/{proyecto}','Portafolio@proyectos');

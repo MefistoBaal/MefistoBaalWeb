@@ -46,12 +46,12 @@
               <h1 class="mb-4"><a href="index.html" class="logo">Santiago Hurtado</a></h1>
               <ul>
 
-                <li class="active"><a href="index.html"><span><small>01</small>Home</span></a></li>
-                <li><a href="about.html"><span><small>02</small>Resumen</span></a></li>
-                <li><a href="services.html"><span><small>03</small>Servicios</span></a></li>
-                <li><a href="portfolio.html"><span><small>04</small>Portafolio</span></a></li>
-                <li><a href="blog.html"><span><small>05</small>Blog</span></a></li>
-                <li><a href="contact.html"><span><small>06</small>Contáctame</span></a></li>
+                <li class="active"><a href="/"><span><small>01</small>Home</span></a></li>
+                <li><a href="/about"><span><small>02</small>Resumen</span></a></li>
+                <li><a href="/services"><span><small>03</small>Servicios</span></a></li>
+                <li><a href="/portfolio"><span><small>04</small>Portafolio</span></a></li>
+                <li><a href="/blog"><span><small>05</small>Blog</span></a></li>
+                <li><a href="/contact"><span><small>06</small>Contáctame</span></a></li>
                 @yield('extra_menu')
 
               </ul>
@@ -69,14 +69,15 @@
             <div class="col-md-5 text-center">
               <div class="ftco-footer-widget mb-5">
                 <ul class="ftco-footer-social list-unstyled">
-                  <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                  <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                  <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                    <li><a href="https://twitter.com/mefistobaal96" target="_blank"><span class="icon-twitter"></span></a></li>
+                    <li><a href="https://www.facebook.com/Mefisto.Baal.SH" target="_blank"><span class="icon-facebook"></span></a></li>
+                    <li><a href="https://gitlab.com/mefistobaal" target="_blank"><span class="icon-gitlab"></span></a></li>
+                    <li><a href="https://t.me/MefistoBaal" target="_blank"><span class="icon-telegram"></span></a></li>
                 </ul>
               </div>
               <div class="ftco-footer-widget">
-                <h2 class="mb-3">Contact Us</h2>
-                <p class="h3 email"><a href="#">info@email.com</a></p>
+                <h2 class="mb-3">Contáctame</h2>
+                <p class="h3 email"><a href="#">dasanti_12@hotmail.com</a></p>
               </div>
             </div>
           </div>

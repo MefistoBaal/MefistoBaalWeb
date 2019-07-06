@@ -1,7 +1,7 @@
 @extends('layouts.html')
 
 @section('header')
-<title>MefistoBaal | Web Developer</title>
+<title>MefistoBaal | FullStack Web Developer</title>
 @endsection
 
 @section('content')
@@ -60,13 +60,14 @@
                   <p>Soy Desarrollador Web apasionado. Con talento para aportar a su proyecto.</p>
                   <p><a href="#">Mira mi CV</a></p>
                   <ul class="ftco-footer-social list-unstyled mt-4">
-                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                    <li><a href="#"><span class="icon-facebook"></span></a></li>
-                    <li><a href="#"><span class="icon-instagram"></span></a></li>
+                    <li><a href="https://twitter.com/mefistobaal96" target="_blank"><span class="icon-twitter"></span></a></li>
+                    <li><a href="https://www.facebook.com/Mefisto.Baal.SH" target="_blank"><span class="icon-facebook"></span></a></li>
+                    <li><a href="https://gitlab.com/mefistobaal" target="_blank"><span class="icon-gitlab"></span></a></li>
+                    <li><a href="https://t.me/MefistoBaal" target="_blank"><span class="icon-telegram"></span></a></li>
                   </ul>
                   <h5>Contáctame a travez de: </h5>
-                  <p>Email: <a href="#">dasanti_12@hotmail.com</a></p>
-                  <p>Phone: <a href="#">(+57) 320 826 3483</a></p>
+                  <p>Emails: <br><a href="#">dasanti_12@hotmail.com<br>mefistobaal96@gmail.com</a></p>
+                  <p>Teléfono: <a href="#">(+57) 320 826 3483</a></p>
                 </div>
               </div>
             </div>
