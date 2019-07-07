@@ -72,12 +72,13 @@
                     <li><a href="https://twitter.com/mefistobaal96" target="_blank"><span class="icon-twitter"></span></a></li>
                     <li><a href="https://www.facebook.com/Mefisto.Baal.SH" target="_blank"><span class="icon-facebook"></span></a></li>
                     <li><a href="https://gitlab.com/mefistobaal" target="_blank"><span class="icon-gitlab"></span></a></li>
-                    <li><a href="https://t.me/MefistoBaal" target="_blank"><span class="icon-telegram"></span></a></li>
+                    <li><a href="https://t.me/MefistoBaal" target="_blank"><span class="icon-telegram"></span></a></li><li><a href="https://t.me/MefistoBaal" target="_blank"><span class="icon-whatsapp"></span></a></li>
                 </ul>
               </div>
               <div class="ftco-footer-widget">
                 <h2 class="mb-3">Contáctame</h2>
                 <p class="h3 email"><a href="#">dasanti_12@hotmail.com</a></p>
+                <p class="h3 email"><a href="#">mefistobaal96@gmail.com</a></p>
               </div>
             </div>
           </div>
@@ -85,7 +86,7 @@
             <div class="col-md-12 text-center">
 
               <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true" style="color: red;"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Hecho con <i class="icon-heart" aria-hidden="true" style="color: red;"></i></a>
       <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
             </div>
           </div>

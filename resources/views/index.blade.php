@@ -110,7 +110,7 @@
                 <div class="media-body">
                   <h3 class="heading">HTML/CSS</h3>
                   <h3 class="heading">Prototyping</h3>
-                  <h3 class="heading">User Testing</h3>
+                  <h3 class="heading">Unit Testing</h3>
                 </div>
               </div>
             </div>
@@ -123,7 +123,7 @@
           <div class="row justify-content-center mb-5 pb-5">
             <div class="col-md-7 text-center heading-section ftco-animate">
               <span>Portfolio</span>
-              <h2>Checkout a few of my works</h2>
+              <h2>Mira algunos de mis trabajos</h2>
             </div>
           </div>
           <div class="row no-gutters">
