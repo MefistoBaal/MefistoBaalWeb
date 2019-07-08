@@ -1,7 +1,7 @@
 @extends('layouts.html')
 
 @section('header')
-    <title>Portafoliio | MeifistoBaal</title>
+<title>{{$title}} | FullStack Web Developer</title>
 @endsection
 
 @section('content')

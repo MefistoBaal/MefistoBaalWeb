@@ -1,56 +1,16 @@
 @extends('layouts.html')
 
 @section('header')
-<title>MefistoBaal | FullStack Web Developer</title>
+<title>{{$title}} | FullStack Web Developer</title>
 @endsection
 
 @section('content')
 
-    <div id="colorlib-page">
-      <header>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="colorlib-navbar-brand">
-                <a class="colorlib-logo" href="index.html"><span class="logo-img" style="background-image: url(images/person_1.jpg);"></span>Santiago Hurtado</a>
-              </div>
-              <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <section class="home-slider owl-carousel js-fullheight">
-        <div class="slider-item js-fullheight">
-          <div class="overlay"></div>
-          <div class="container">
-            <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
-              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                <p><a href="#" class="scroll">Hola! Soy</a></p>
-                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Santiago Hurtado</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="slider-item js-fullheight">
-          <div class="overlay"></div>
-          <div class="container">
-            <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
-              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                <p><a href="#" class="scroll">Soy de Colombia</a></p>
-                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">Web Developer</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- END slider -->
-
       <section class="ftco-section about-section">
         <div class="container">
           <div class="row d-flex" data-scrollax-parent="true">
-            <div class="col-md-4 author-img" style="background-image: url(images/author-1.jpg);" data-scrollax=" properties: { translateY: '-70%'}"></div>
+            <div class="col-md-4 author-img" style="background-image: url({{ asset('images/author-1.jpg') }});" data-scrollax=" properties: {
+            translateY: '-70%'}"></div>
             <div class="col-md-2"></div>
             <div class="col-md-6 wrap ftco-animate">
               <div class="about-desc">
@@ -249,4 +209,5 @@
           </div>
         </div>
       </section>
+
 @endsection
