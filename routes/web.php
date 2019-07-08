@@ -21,6 +21,11 @@ Route::get('/home', [
     'as'   => 'show_home_path'
 ]);
 
+Route::get('/login', [
+    'uses' => 'LoginController@index',
+    'as'   => 'show_login_path'
+]);
+
 Route::get('/about', [
     'uses' => 'AboutController@index',
     'as'   => 'show_about_path'
