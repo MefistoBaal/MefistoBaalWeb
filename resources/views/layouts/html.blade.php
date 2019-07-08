@@ -43,7 +43,7 @@
             <div class="colorlib-table-cell js-fullheight">
                 <div class="row no-gutters">
                     <div class="col-md-12 text-center">
-                        <h1 class="mb-4"><a href="index.{{ route('show_home_path') }}" class="logo">Santiago Hurtado</a>
+                        <h1 class="mb-4"><a href="{{ route('show_home_path') }}" class="logo">Santiago Hurtado</a>
                         </h1>
                         <ul>
 
@@ -69,8 +69,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="colorlib-navbar-brand">
-                            <a class="colorlib-logo" href="index.html"><span class="logo-img" style="background-image: url({{asset('images/person_1.jpg')}});
-                                        "></span>Santiago Hurtado</a>
+                            <a class="colorlib-logo" href="{{route('show_home_path')}}"><span class="logo-img" style="background-image: url({{asset('images/person_1.jpg')}});"></span>Santiago Hurtado</a>
                         </div>
                         <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
                     </div>
@@ -96,8 +95,7 @@
                     <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
                         <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                             <p><a href="#" class="scroll">Soy de Colombia</a></p>
-                            <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">Web
-                                Developer</h1>
+                            <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">Web Developer</h1>
                         </div>
                     </div>
                 </div>
