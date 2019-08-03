@@ -12,4 +12,17 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/Example');
+window.$ = window.jQuery = require('jquery');
+
+require('popper.js');
+require('bootstrap');
+//require('./components/Example');
+require('./components/jquery.easing.1.3');
+require('./components/jquery.waypoints.min');
+require('./components/jquery.stellar');
+require('owl.carousel/dist/owl.carousel');
+require('./components/jquery.magnific-popup.min');
+window.AOS = require('./components/aos');
+require('./components/jquery.animateNumber.min');
+require('./components/scrollax');
+require('./components/main');

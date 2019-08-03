@@ -55,3 +55,5 @@ Route::get('/contact', [
     'uses' => 'ContactController@index',
     'as'   => 'show_contact_path'
 ]);
+
+Route::view('/react', 'react');
