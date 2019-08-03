@@ -1,56 +1,16 @@
 @extends('layouts.html')
 
 @section('header')
-<title>MefistoBaal | Web Developer</title>
+<title>{{$title}} | FullStack Web Developer</title>
 @endsection
 
 @section('content')
 
-    <div id="colorlib-page">
-      <header>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="colorlib-navbar-brand">
-                <a class="colorlib-logo" href="index.html"><span class="logo-img" style="background-image: url(images/person_1.jpg);"></span>Santiago Hurtado</a>
-              </div>
-              <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <section class="home-slider owl-carousel js-fullheight">
-        <div class="slider-item js-fullheight">
-          <div class="overlay"></div>
-          <div class="container">
-            <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
-              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                <p><a href="#" class="scroll">Hola! Soy</a></p>
-                <h1 class="mb-3" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Santiago Hurtado</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="slider-item js-fullheight">
-          <div class="overlay"></div>
-          <div class="container">
-            <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
-              <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                <p><a href="#" class="scroll">Soy de Colombia</a></p>
-                <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">Web Developer</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- END slider -->
-
       <section class="ftco-section about-section">
         <div class="container">
           <div class="row d-flex" data-scrollax-parent="true">
-            <div class="col-md-4 author-img" style="background-image: url(images/author-1.jpg);" data-scrollax=" properties: { translateY: '-70%'}"></div>
+            <div class="col-md-4 author-img" style="background-image: url({{ asset('images/author-1.jpg') }});" data-scrollax=" properties: {
+            translateY: '-70%'}"></div>
             <div class="col-md-2"></div>
             <div class="col-md-6 wrap ftco-animate">
               <div class="about-desc">
@@ -60,13 +20,14 @@
                   <p>Soy Desarrollador Web apasionado. Con talento para aportar a su proyecto.</p>
                   <p><a href="#">Mira mi CV</a></p>
                   <ul class="ftco-footer-social list-unstyled mt-4">
-                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                    <li><a href="#"><span class="icon-facebook"></span></a></li>
-                    <li><a href="#"><span class="icon-instagram"></span></a></li>
+                    <li><a href="https://twitter.com/mefistobaal96" target="_blank"><span class="icon-twitter"></span></a></li>
+                    <li><a href="https://www.facebook.com/Mefisto.Baal.SH" target="_blank"><span class="icon-facebook"></span></a></li>
+                    <li><a href="https://gitlab.com/mefistobaal" target="_blank"><span class="icon-gitlab"></span></a></li>
+                    <li><a href="https://t.me/MefistoBaal" target="_blank"><span class="icon-telegram"></span></a></li>
                   </ul>
                   <h5>Contáctame a travez de: </h5>
-                  <p>Email: <a href="#">dasanti_12@hotmail.com</a></p>
-                  <p>Phone: <a href="#">(+57) 320 826 3483</a></p>
+                  <p>Emails: <br><a href="#">dasanti_12@hotmail.com<br>mefistobaal96@gmail.com</a></p>
+                  <p>Teléfono: <a href="#">(+57) 320 826 3483</a></p>
                 </div>
               </div>
             </div>
@@ -109,7 +70,7 @@
                 <div class="media-body">
                   <h3 class="heading">HTML/CSS</h3>
                   <h3 class="heading">Prototyping</h3>
-                  <h3 class="heading">User Testing</h3>
+                  <h3 class="heading">Unit Testing</h3>
                 </div>
               </div>
             </div>
@@ -122,7 +83,7 @@
           <div class="row justify-content-center mb-5 pb-5">
             <div class="col-md-7 text-center heading-section ftco-animate">
               <span>Portfolio</span>
-              <h2>Checkout a few of my works</h2>
+              <h2>Mira algunos de mis trabajos</h2>
             </div>
           </div>
           <div class="row no-gutters">
@@ -248,4 +209,5 @@
           </div>
         </div>
       </section>
+
 @endsection
