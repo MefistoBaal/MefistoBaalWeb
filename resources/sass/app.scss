@@ -1,14 +1,14 @@
+/** Principal Styles*/
+@import "components/landing/open-iconic-bootstrap.min.css";
+@import "components/landing/animate.css";
+@import "~owl.carousel/dist/assets/owl.carousel.css";
+@import "~owl.carousel/dist/assets/owl.theme.default.min.css";
+@import "components/landing/magnific-popup.css";
+@import "components/landing/aos.css";
+@import "components/landing/ionicons.min.css";
+@import "components/landing/bootstrap-datepicker.css";
+@import "components/landing/jquery.timepicker.css";
+@import "components/landing/flaticon.css";
+@import "components/landing/icomoon.css";
 
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
-// Variables
-@import 'variables';
-
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
-
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
+@import "components/landing/style.css";
