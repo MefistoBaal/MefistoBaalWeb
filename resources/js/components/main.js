@@ -190,7 +190,7 @@ $(document).ready(function($) {
 	$('#appointment_time').timepicker();
 
 	var pageProgress = function() {
-		$(window).scroll(function() {
+		$(window).on("scroll", function() {
 	    var wintop = $(window).scrollTop(), docheight = $('.page').height(), winheight = $(window).height();
 	    // console.log(wintop);
 	    var totalScroll = (wintop/(docheight-winheight))*100;

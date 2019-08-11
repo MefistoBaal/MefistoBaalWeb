@@ -13,10 +13,9 @@ require('./bootstrap');
  */
 
 window.$ = window.jQuery = require('jquery');
-
+require('jquery-migrate/dist/jquery-migrate.min');
 require('popper.js');
 require('bootstrap');
-//require('./components/Example');
 require('./components/jquery.easing.1.3');
 require('./components/jquery.waypoints.min');
 require('./components/jquery.stellar');
@@ -25,4 +24,6 @@ require('./components/jquery.magnific-popup.min');
 window.AOS = require('./components/aos');
 require('./components/jquery.animateNumber.min');
 require('./components/scrollax');
+require('./components/bootstrap-datepicker');
+require('./components/jquery.timepicker.min');
 require('./components/main');
