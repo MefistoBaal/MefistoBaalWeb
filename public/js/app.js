@@ -40259,27 +40259,27 @@ __webpack_require__(/*! popper.js */ "./node_modules/popper.js/dist/esm/popper.j
 
 __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
 
-__webpack_require__(/*! ./components/jquery.easing.1.3 */ "./resources/js/components/jquery.easing.1.3.js");
+__webpack_require__(/*! ./components/landing/jquery.easing.1.3 */ "./resources/js/components/landing/jquery.easing.1.3.js");
 
-__webpack_require__(/*! ./components/jquery.waypoints.min */ "./resources/js/components/jquery.waypoints.min.js");
+__webpack_require__(/*! ./components/landing/jquery.waypoints.min */ "./resources/js/components/landing/jquery.waypoints.min.js");
 
-__webpack_require__(/*! ./components/jquery.stellar */ "./resources/js/components/jquery.stellar.js");
+__webpack_require__(/*! ./components/landing/jquery.stellar */ "./resources/js/components/landing/jquery.stellar.js");
 
 __webpack_require__(/*! owl.carousel/dist/owl.carousel */ "./node_modules/owl.carousel/dist/owl.carousel.js");
 
-__webpack_require__(/*! ./components/jquery.magnific-popup.min */ "./resources/js/components/jquery.magnific-popup.min.js");
+__webpack_require__(/*! ./components/landing/jquery.magnific-popup.min */ "./resources/js/components/landing/jquery.magnific-popup.min.js");
 
-window.AOS = __webpack_require__(/*! ./components/aos */ "./resources/js/components/aos.js");
+window.AOS = __webpack_require__(/*! ./components/landing/aos */ "./resources/js/components/landing/aos.js");
 
-__webpack_require__(/*! ./components/jquery.animateNumber.min */ "./resources/js/components/jquery.animateNumber.min.js");
+__webpack_require__(/*! ./components/landing/jquery.animateNumber.min */ "./resources/js/components/landing/jquery.animateNumber.min.js");
 
-__webpack_require__(/*! ./components/scrollax */ "./resources/js/components/scrollax.js");
+__webpack_require__(/*! ./components/landing/scrollax.min */ "./resources/js/components/landing/scrollax.min.js");
 
-__webpack_require__(/*! ./components/bootstrap-datepicker */ "./resources/js/components/bootstrap-datepicker.js");
+__webpack_require__(/*! ./components/landing/bootstrap-datepicker */ "./resources/js/components/landing/bootstrap-datepicker.js");
 
-__webpack_require__(/*! ./components/jquery.timepicker.min */ "./resources/js/components/jquery.timepicker.min.js");
+__webpack_require__(/*! ./components/landing/jquery.timepicker.min */ "./resources/js/components/landing/jquery.timepicker.min.js");
 
-__webpack_require__(/*! ./components/main */ "./resources/js/components/main.js");
+__webpack_require__(/*! ./components/landing/main */ "./resources/js/components/landing/main.js");
 
 /***/ }),
 
@@ -40328,10 +40328,10 @@ if (token) {
 
 /***/ }),
 
-/***/ "./resources/js/components/aos.js":
-/*!****************************************!*\
-  !*** ./resources/js/components/aos.js ***!
-  \****************************************/
+/***/ "./resources/js/components/landing/aos.js":
+/*!************************************************!*\
+  !*** ./resources/js/components/landing/aos.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -40938,14 +40938,14 @@ if (token) {
     t["default"] = n;
   }]);
 });
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
-/***/ "./resources/js/components/bootstrap-datepicker.js":
-/*!*********************************************************!*\
-  !*** ./resources/js/components/bootstrap-datepicker.js ***!
-  \*********************************************************/
+/***/ "./resources/js/components/landing/bootstrap-datepicker.js":
+/*!*****************************************************************!*\
+  !*** ./resources/js/components/landing/bootstrap-datepicker.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -42542,10 +42542,10 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
 
 /***/ }),
 
-/***/ "./resources/js/components/jquery.animateNumber.min.js":
-/*!*************************************************************!*\
-  !*** ./resources/js/components/jquery.animateNumber.min.js ***!
-  \*************************************************************/
+/***/ "./resources/js/components/landing/jquery.animateNumber.min.js":
+/*!*********************************************************************!*\
+  !*** ./resources/js/components/landing/jquery.animateNumber.min.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -42640,10 +42640,10 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
 
 /***/ }),
 
-/***/ "./resources/js/components/jquery.easing.1.3.js":
-/*!******************************************************!*\
-  !*** ./resources/js/components/jquery.easing.1.3.js ***!
-  \******************************************************/
+/***/ "./resources/js/components/landing/jquery.easing.1.3.js":
+/*!**************************************************************!*\
+  !*** ./resources/js/components/landing/jquery.easing.1.3.js ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -42875,10 +42875,10 @@ jQuery.extend(jQuery.easing, {
 
 /***/ }),
 
-/***/ "./resources/js/components/jquery.magnific-popup.min.js":
-/*!**************************************************************!*\
-  !*** ./resources/js/components/jquery.magnific-popup.min.js ***!
-  \**************************************************************/
+/***/ "./resources/js/components/landing/jquery.magnific-popup.min.js":
+/*!**********************************************************************!*\
+  !*** ./resources/js/components/landing/jquery.magnific-popup.min.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -43627,10 +43627,10 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 /***/ }),
 
-/***/ "./resources/js/components/jquery.stellar.js":
-/*!***************************************************!*\
-  !*** ./resources/js/components/jquery.stellar.js ***!
-  \***************************************************/
+/***/ "./resources/js/components/landing/jquery.stellar.js":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/landing/jquery.stellar.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -44284,10 +44284,10 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
 
 /***/ }),
 
-/***/ "./resources/js/components/jquery.timepicker.min.js":
-/*!**********************************************************!*\
-  !*** ./resources/js/components/jquery.timepicker.min.js ***!
-  \**********************************************************/
+/***/ "./resources/js/components/landing/jquery.timepicker.min.js":
+/*!******************************************************************!*\
+  !*** ./resources/js/components/landing/jquery.timepicker.min.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -44891,14 +44891,14 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
     return this.length ? y[b] ? this.hasClass("ui-timepicker-input") ? y[b].apply(this, Array.prototype.slice.call(arguments, 1)) : this : "object" != _typeof(b) && b ? void a.error("Method " + b + " does not exist on jQuery.timepicker") : y.init.apply(this, arguments) : this;
   };
 });
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../node_modules/webpack/buildin/module.js */ "./node_modules/webpack/buildin/module.js")(module)))
 
 /***/ }),
 
-/***/ "./resources/js/components/jquery.waypoints.min.js":
-/*!*********************************************************!*\
-  !*** ./resources/js/components/jquery.waypoints.min.js ***!
-  \*********************************************************/
+/***/ "./resources/js/components/landing/jquery.waypoints.min.js":
+/*!*****************************************************************!*\
+  !*** ./resources/js/components/landing/jquery.waypoints.min.js ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -45248,10 +45248,10 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
 
 /***/ }),
 
-/***/ "./resources/js/components/main.js":
-/*!*****************************************!*\
-  !*** ./resources/js/components/main.js ***!
-  \*****************************************/
+/***/ "./resources/js/components/landing/main.js":
+/*!*************************************************!*\
+  !*** ./resources/js/components/landing/main.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -45450,10 +45450,10 @@ $(document).ready(function ($) {
 
 /***/ }),
 
-/***/ "./resources/js/components/scrollax.js":
-/*!*********************************************!*\
-  !*** ./resources/js/components/scrollax.js ***!
-  \*********************************************/
+/***/ "./resources/js/components/landing/scrollax.min.js":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/landing/scrollax.min.js ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -45477,863 +45477,403 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
  *  http://opensource.org/licenses/MIT
  * 
  */
-(function (factory) {
-  'use strict';
-
-  if (true) {
-    // AMD
-    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+(function (e) {
+   true ? !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js")], __WEBPACK_AMD_DEFINE_FACTORY__ = (e),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-  } else {}
-})(function ($) {
-  'use strict';
-  /**
-   * References.
-   */
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)) : undefined;
+})(function (e) {
+  function W(a) {
+    if (console && console.warn) console.warn("Scrollax: " + a);else throw "Scrollax: " + a;
+  }
 
-  var ArrayProto = Array.prototype,
-      ObjProto = Object.prototype,
-      // Create quick reference variables for speed access to core prototypes.
-  push = ArrayProto.push,
-      splice = ArrayProto.splice,
-      hasOwnProperty = ObjProto.hasOwnProperty,
-      // Global variables
-  namespace = 'Scrollax',
-      lownamespace = namespace.toLowerCase(),
-      numberRegExp = /[-+]?\d+(\.\d+)?/g,
-      transforms = ['translateX', 'translateY', 'rotate', 'rotateX', 'rotateY', 'rotateZ', 'skewX', 'skewY', 'scaleX', 'scaleY'],
-      // Global DOM References
-  $win = $(window),
-      $doc = $(document.body),
-      // Support indicators
-  transform,
-      gpuAcceleration,
-      // Speed access to frequently called functions
-  _position,
-      bind,
-      unbind;
-  /**
-   * Scrollax
-   *
-   * @class
-   *
-   * @param {Element}  frame  Scrolling frame.
-   */
+  function ka(a) {
+    var g = !!("pageYOffset" in a);
+    return {
+      width: g ? window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth : a.offsetWidth,
+      height: g ? window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight : a.offsetHeight,
+      left: a[g ? "pageXOffset" : "scrollLeft"],
+      top: a[g ? "pageYOffset" : "scrollTop"]
+    };
+  }
 
+  function X(a) {
+    return (a = a.data("scrollax")) && eval("({" + a + "})") || {};
+  }
 
-  var Scrollax = function Scrollax(frame, options, callbackMap) {
-    // Private variables
-    var self = this;
-    var $frame = frame && $(frame).eq(0) || $win;
-    var instances = Scrollax.instances;
-    var prevent = null;
-    frame = $frame[0]; // Check the contest existance
+  function Y(a) {
+    var g, c;
+    return !!(a && "object" === _typeof(a) && "object" === _typeof(a.window) && a.window == a && a.setTimeout && a.alert && (g = a.document) && "object" === _typeof(g) && (c = g.defaultView || g.parentWindow) && "object" === _typeof(c) && c == a);
+  }
 
-    $.each(instances, function (instance, i) {
-      if (instance && instance.frame === frame) {
-        prevent = true;
-      }
-    }); // Send warn message to browser when the Frame is not available or initialized before
-
-    if (!frame || prevent) {
-      if (prevent) {
-        warn(namespace + ': Scrollax has been initialized for this frame!');
-      } else {
-        warn(namespace + ': Frame is not available!');
-      }
-
-      return;
-    } // Merge options
-
-
-    var o = $.extend({}, Scrollax.defaults, options);
-    var parents = [],
-        $parents = null,
-        parentSelector = o.parentSelector || '[data-' + lownamespace + '-parent]',
-        elementsSelector = o.elementsSelector || '[data-' + lownamespace + ']',
-        callbacks = {},
-        tmpArray = [],
-        resizeID,
-        frameIsWindow = isWindow(frame),
-        // Garbage collecting purposes
-    i,
-        l,
-        pi,
-        pl,
-        $freezer,
-        timer,
-        containsPerformanceClass,
-        offset,
-        isHorizontal,
-        parentOffset,
-        pos,
-        parent,
-        parentOptions,
-        ratio,
-        start,
-        end,
-        parallaxElements,
-        parallaxable,
-        el,
-        properties,
-        property,
-        value,
-        transformStyle,
-        numbers; // Expose variables
-
-    self.frame = frame;
-    self.options = o;
-    self.parents = parents;
-    self.initialized = false;
-    /**
-     * (Re)Loading function.
-     *
-     * Populate arrays, set sizes, add spies, ...
-     *
-     * @return {Object}
-     */
-
-    function load() {
-      $parents = frameIsWindow ? $doc.find(parentSelector) : $frame.find(parentSelector); // Reset parents
-
-      parents.length = 0;
-      isHorizontal = !!o.horizontal; // Iterate through parents
-
-      $parents.each(parentEachHandler); // Update scroll
-
-      scrollHandler();
-
-      if (o.performanceTrick) {
-        $freezer = frameIsWindow ? $doc : $frame;
-      } // Trigger :load event
-
-
-      trigger('load');
-      return self;
+  var v = Array.prototype,
+      C = v.push,
+      Z = v.splice,
+      aa = Object.prototype.hasOwnProperty,
+      la = /[-+]?\d+(\.\d+)?/g,
+      ma = "translateX translateY rotate rotateX rotateY rotateZ skewX skewY scaleX scaleY".split(" "),
+      ba = e(window),
+      ca = e(document.body),
+      da,
+      ea,
+      _L,
+      M,
+      N,
+      q = function q(a, g, c) {
+    function k() {
+      O = fa ? ca.find(ga) : P.find(ga);
+      x.length = 0;
+      r = !!t.horizontal;
+      O.each(na);
+      d();
+      t.performanceTrick && (F = fa ? ca : P);
+      u("load");
+      return f;
     }
 
-    self.reload = load;
-    /**
-     * Each parent handler
-     *
-     * @param {Int}   i         Parent index.
-     * @param {Node}  element   Parent DOM element.
-     *
-     * @return {Void}
-     */
-
-    var parentEachHandler = function parentEachHandler(i, element) {
-      var $parent = $(element),
-          parentOptions = getInlineOptions($(element)),
-          parent = {};
-      parent.element = element, parent.options = parentOptions, parent.parallaxElements = [];
-      $parent.find(elementsSelector).each(function (pI, pElement) {
-        var parallaxElement = getInlineOptions($(pElement));
-        parallaxElement.element = pElement;
-        push.call(parent.parallaxElements, parallaxElement);
-      });
-      push.call(parents, parent);
-    };
-    /**
-     * Window resize handler.
-     *
-     * @return {Void}
-     */
-
-
-    function resizeHandler() {
-      if (resizeID) {
-        resizeID = clearTimeout(resizeID);
-      }
-
-      resizeID = setTimeout(function () {
-        self.reload();
+    function l() {
+      G && (G = clearTimeout(G));
+      G = setTimeout(function () {
+        f.reload();
       });
     }
 
-    ;
-    /**
-     * Frame scrolling handler.
-     *
-     * @return {Void}
-     */
+    function d() {
+      var ha = x.length;
+      t.performanceTrick && F && (clearTimeout(ia), Q || (F.addClass("scrollax-performance"), Q = !0), ia = setTimeout(function () {
+        F.removeClass("scrollax-performance");
+        Q = !1;
+      }, 100));
 
-    function scrollHandler() {
-      var l = parents.length;
+      if (ha) {
+        H = ka(a);
 
-      if (o.performanceTrick && $freezer) {
-        clearTimeout(timer);
-
-        if (!containsPerformanceClass) {
-          $freezer.addClass('scrollax-performance');
-          containsPerformanceClass = true;
+        for (var c = 0; c < ha; c++) {
+          I = x[c], y = _L(I.element, a), 0 > y[r ? "right" : "bottom"] || y[r ? "left" : "top"] > H[r ? "width" : "height"] || (ja = I.options, R = ja.offset || t.offset || 0, J = y[r ? "right" : "bottom"], z = y[r ? "width" : "height"], A = (z - J + R) / z, 0 > A && (J = y[r ? "left" : "top"], z = H[r ? "width" : "height"], A = -1 + (z - J + R) / z), 1 < A || -1 > A || b(I, A, r));
         }
 
-        timer = setTimeout(function () {
-          $freezer.removeClass('scrollax-performance');
-          containsPerformanceClass = false;
-        }, 100);
-      }
-
-      if (!l) {
-        return;
-      } // Get frame offset
-
-
-      offset = getOffset(frame);
-
-      for (var i = 0; i < l; i++) {
-        parent = parents[i];
-        pos = _position(parent.element, frame);
-
-        if (pos[isHorizontal ? 'right' : 'bottom'] < 0 || pos[isHorizontal ? 'left' : 'top'] > offset[isHorizontal ? 'width' : 'height']) {
-          continue;
-        }
-
-        parentOptions = parent.options;
-        parentOffset = parentOptions.offset || o.offset || 0;
-        start = pos[isHorizontal ? 'right' : 'bottom'];
-        end = pos[isHorizontal ? 'width' : 'height']; // Calculate parent parallax ratio
-
-        ratio = (end - start + parentOffset) / end;
-
-        if (ratio < 0) {
-          start = pos[isHorizontal ? 'left' : 'top'];
-          end = offset[isHorizontal ? 'width' : 'height']; // Calculate negative parent parallax ratio
-
-          ratio = -1 + (end - start + parentOffset) / end;
-        }
-
-        if (ratio > 1 || ratio < -1) {
-          continue;
-        }
-
-        parallax(parent, ratio, isHorizontal);
-      } // Trigger :scroll event
-
-
-      trigger('scroll', offset);
-    }
-
-    self.scroll = scrollHandler;
-    /**
-     * Parallax handler.
-     *
-     * @param {Int}    index    Parent object.
-     * @param {Object} offset   Scroll offset.
-     *
-     * @return {Void}
-     */
-
-    function parallax(parent, ratio) {
-      parallaxElements = parent.parallaxElements;
-      var l = parallaxElements.length;
-
-      if (!l) {
-        return;
-      }
-
-      for (var i = 0; i < l; i++) {
-        parallaxable = parallaxElements[i];
-        el = parallaxable.element; // Set needed styles to parallaxable element
-
-        styleHandler(el, parallaxable, ratio);
+        u("scroll", H);
       }
     }
-    /**
-     * Style handler for parallaxable element.
-     *
-     * @param {Node}   element        Parallaxable DOM element.
-     * @param {Object} parallaxable   Parallaxable options.
-     * @param {int}    ratio          Parallax ratio.
-     *
-     * @return {Int}  Parent     index, or -1 if not found.
-     */
 
+    function b(a, b) {
+      S = a.parallaxElements;
+      var c = S.length;
+      if (c) for (var f = 0; f < c; f++) {
+        T = S[f];
+        var g = oa = T.element,
+            d = b;
+        U = T.properties || (r ? {
+          translateX: "100%"
+        } : {
+          translateY: "100%"
+        });
+        D = "";
 
-    function styleHandler(element, parallaxable, ratio) {
-      properties = parallaxable.properties || (isHorizontal ? {
-        'translateX': '100%'
-      } : {
-        'translateY': '100%'
-      });
-      transformStyle = "";
-
-      for (property in properties) {
-        value = properties[property];
-
-        if (typeof value === 'number') {
-          value = value * ratio;
-        } else if (typeof value === 'string') {
-          numbers = value.match(numberRegExp);
-          value = value;
-
-          for (i = 0, l = numbers.length; i < l; i++) {
-            value = value.replace(numbers[i], parseFloat(numbers[i] * ratio));
+        for (B in U) {
+          n = U[B];
+          if ("number" === typeof n) n *= d;else if ("string" === typeof n) for (K = n.match(la), m = 0, E = K.length; m < E; m++) {
+            n = n.replace(K[m], parseFloat(K[m] * d));
           }
-
-          ;
+          if (-1 !== e.inArray(B, ma)) D += B + "(" + n + ")";else {
+            var k = g.style,
+                l = B,
+                h;
+            "opacity" === B ? (h = 0 > d ? 1 + n : 1 - n, h = 0 > h ? 0 : 1 < h ? 1 : h) : h = n;
+            k[l] = h;
+          }
         }
 
-        if ($.inArray(property, transforms) !== -1) {
-          transformStyle += property + '(' + value + ')';
-        } else {
-          element.style[property] = property === 'opacity' ? within(ratio < 0 ? 1 + value : 1 - value, 0, 1) : value;
-        }
-      }
-
-      if (transformStyle) {
-        element.style[transform] = gpuAcceleration + transformStyle;
+        D && (g.style[da] = ea + D);
       }
     }
-    /**
-     * Get the index of an parent in parents.
-     *
-     * @param {Mixed} parent     Parent DOM element.
-     *
-     * @return {Int}             index, or -1 if not found.
-     */
 
+    function pa(a) {
+      return "undefined" !== typeof a ? "number" !== typeof a && "string" !== typeof a || "" === a || isNaN(a) ? O.index(a) : 0 <= a && a < x.length ? a : -1 : -1;
+    }
 
-    function getIndex(parent) {
-      return typeof parent !== 'undefined' ? is_numeric(parent) ? parent >= 0 && parent < parents.length ? parent : -1 : $parents.index(parent) : -1;
-    } // Expose getIndex without lowering the compressibility of it,
-    // as it is used quite often throughout Scrollax.
+    function u(a, b) {
+      if (h[a]) {
+        E = h[a].length;
 
+        for (m = V.length = 0; m < E; m++) {
+          C.call(V, h[a][m]);
+        }
 
-    self.getIndex = getIndex;
-    /**
-     * Trigger callbacks for event.
-     *
-     * @param  {String} name Event name.
-     * @param  {Mixed}  argX Arguments passed to callbacks.
-     *
-     * @return {Void}
-     */
-
-    function trigger(name, arg1) {
-      if (callbacks[name]) {
-        l = callbacks[name].length; // Callbacks will be stored and executed from a temporary array to not
-        // break the execution queue when one of the callbacks unbinds itself.
-
-        tmpArray.length = 0;
-
-        for (i = 0; i < l; i++) {
-          push.call(tmpArray, callbacks[name][i]);
-        } // Execute the callbacks
-
-
-        for (i = 0; i < l; i++) {
-          tmpArray[i].call(self, name, arg1);
+        for (m = 0; m < E; m++) {
+          V[m].call(f, a, b);
         }
       }
     }
-    /**
-     * Registers callbacks to be executed only once.
-     *
-     * @param  {Mixed} name  Event name, or callbacks map.
-     * @param  {Mixed} fn    Callback, or an array of callback functions.
-     *
-     * @return {Object}
-     */
 
-
-    self.one = function (name, fn) {
-      function proxy() {
-        fn.apply(self, arguments);
-        self.off(name, proxy);
-      }
-
-      self.on(name, proxy);
-      return self;
-    };
-    /**
-     * Registers callbacks.
-     *
-     * @param  {Mixed} name  Event name, or callbacks map.
-     * @param  {Mixed} fn    Callback, or an array of callback functions.
-     *
-     * @return {Object}
-     */
-
-
-    self.on = function (name, fn) {
-      // Callbacks map
-      if (_typeof(name) === 'object') {
-        for (var key in name) {
-          if (hasOwnProperty.call(name, key)) {
-            self.on(key, name[key]);
-          }
-        } // Callback
-
-      } else if (typeof fn === 'function') {
-        var names = name.split(' ');
-
-        for (var n = 0, nl = names.length; n < nl; n++) {
-          callbacks[names[n]] = callbacks[names[n]] || [];
-
-          if (callbackIndex(names[n], fn) === -1) {
-            push.call(callbacks[names[n]], fn);
-          }
-        } // Callbacks array
-
-      } else if (typeof fn === 'array') {
-        for (var f = 0, fl = fn.length; f < fl; f++) {
-          self.on(name, fn[f]);
-        }
-      }
-
-      return self;
-    };
-    /**
-     * Remove one or all callbacks.
-     *
-     * @param  {String} name Event name.
-     * @param  {Mixed}  fn   Callback, or an array of callback functions. Omit to remove all callbacks.
-     *
-     * @return {Object}
-     */
-
-
-    self.off = function (name, fn) {
-      if (fn instanceof Array) {
-        for (var f = 0, fl = fn.length; f < fl; f++) {
-          self.off(name, fn[f]);
-        }
-      } else {
-        var names = name.split(' ');
-
-        for (var n = 0, nl = names.length; n < nl; n++) {
-          callbacks[names[n]] = callbacks[names[n]] || [];
-
-          if (typeof fn === 'undefined') {
-            callbacks[names[n]].length = 0;
-          } else {
-            var index = callbackIndex(names[n], fn);
-
-            if (index !== -1) {
-              splice.call(callbacks[names[n]], index, 1);
-            }
-          }
-        }
-      }
-
-      return self;
-    };
-    /**
-     * Returns callback array index.
-     *
-     * @param  {String}   name Event name.
-     * @param  {Function} fn   Function
-     *
-     * @return {Int} Callback array index, or -1 if isn't registered.
-     */
-
-
-    function callbackIndex(name, fn) {
-      for (var i = 0, l = callbacks[name].length; i < l; i++) {
-        if (callbacks[name][i] === fn) {
-          return i;
-        }
+    function p(a, b) {
+      for (var c = 0, f = h[a].length; c < f; c++) {
+        if (h[a][c] === b) return c;
       }
 
       return -1;
     }
-    /**
-     * Updates a signle or multiple option values.
-     *
-     * @param {Mixed} name  Name of the option that should be updated, or object that will extend the options.
-     * @param {Mixed} value New option value.
-     *
-     * @return {Object}
-     */
 
+    var f = this,
+        P = a && e(a).eq(0) || ba,
+        w = q.instances,
+        v = null;
+    a = P[0];
+    e.each(w, function (b, c) {
+      b && b.frame === a && (v = !0);
+    });
+    if (!a || v) v ? W("Scrollax: Scrollax has been initialized for this frame!") : W("Scrollax: Frame is not available!");else {
+      var t = e.extend({}, q.defaults, g),
+          x = [],
+          O = null,
+          ga = t.parentSelector || "[data-scrollax-parent]",
+          qa = t.elementsSelector || "[data-scrollax]",
+          h = {},
+          V = [],
+          G,
+          fa = Y(a),
+          m,
+          E,
+          F,
+          ia,
+          Q,
+          H,
+          r,
+          R,
+          y,
+          I,
+          ja,
+          A,
+          J,
+          z,
+          S,
+          T,
+          oa,
+          U,
+          B,
+          n,
+          D,
+          K;
+      f.frame = a;
+      f.options = t;
+      f.parents = x;
+      f.initialized = !1;
+      f.reload = k;
 
-    self.set = function (name, value) {
-      if ($.isPlainObject(name)) {
-        $.extend(o, name);
-      } else if (hasOwnProperty.call(o, name)) {
-        o[name] = value;
-      } // Reload
+      var na = function na(a, b) {
+        var c = e(b),
+            f = X(e(b)),
+            d = {};
+        d.element = b;
+        d.options = f;
+        d.parallaxElements = [];
+        c.find(qa).each(function (a, b) {
+          var c = X(e(b));
+          c.element = b;
+          C.call(d.parallaxElements, c);
+        });
+        C.call(x, d);
+      };
 
+      f.scroll = d;
+      f.getIndex = pa;
 
-      load();
-      return self;
-    };
-    /**
-     * Destroys instance and everything it created.
-     *
-     * @return {Object}
-     */
-
-
-    self.destroy = function () {
-      // Unbind all events
-      unbind(window, 'resize', resizeHandler);
-      unbind(frame, 'scroll', scrollHandler); // Remove this instance from instances
-
-      $.each(instances, function (instance, i) {
-        if (instance && instance.frame === frame) {
-          splice.call(Scrollax.instances, i, 1);
+      f.one = function (a, b) {
+        function c() {
+          b.apply(f, arguments);
+          f.off(a, c);
         }
-      });
-      parents.length = 0;
-      self.initialized = false; // Trigger :destroy event
 
-      trigger('destroy');
-      return self;
-    };
-    /**
-     * Initialize.
-     *
-     * @return {Object}
-     */
+        f.on(a, c);
+        return f;
+      };
 
+      f.on = function (a, b) {
+        if ("object" === _typeof(a)) for (var c in a) {
+          if (aa.call(a, c)) f.on(c, a[c]);
+        } else if ("function" === typeof b) {
+          c = a.split(" ");
 
-    self.init = function () {
-      if (self.initialized) {
-        return;
-      } // Register callbacks map
+          for (var d = 0, g = c.length; d < g; d++) {
+            h[c[d]] = h[c[d]] || [], -1 === p(c[d], b) && C.call(h[c[d]], b);
+          }
+        } else if ("array" === typeof b) for (c = 0, d = b.length; c < d; c++) {
+          f.on(a, b[c]);
+        }
+        return f;
+      };
 
+      f.off = function (a, c) {
+        if (c instanceof Array) for (var b = 0, d = c.length; b < d; b++) {
+          f.off(a, c[b]);
+        } else for (var b = a.split(" "), d = 0, g = b.length; d < g; d++) {
+          if (h[b[d]] = h[b[d]] || [], "undefined" === typeof c) h[b[d]].length = 0;else {
+            var k = p(b[d], c);
+            -1 !== k && Z.call(h[b[d]], k, 1);
+          }
+        }
+        return f;
+      };
 
-      self.on(callbackMap);
-      load(); // Bind all events
+      f.set = function (a, b) {
+        e.isPlainObject(a) ? e.extend(t, a) : aa.call(t, a) && (t[a] = b);
+        k();
+        return f;
+      };
 
-      bind(window, 'resize', resizeHandler);
-      bind(frame, 'scroll', scrollHandler); // Add this instance to all instances
+      f.destroy = function () {
+        N(window, "resize", l);
+        N(a, "scroll", d);
+        e.each(w, function (b, c) {
+          b && b.frame === a && Z.call(q.instances, c, 1);
+        });
+        x.length = 0;
+        f.initialized = !1;
+        u("destroy");
+        return f;
+      };
 
-      push.call(Scrollax.instances, self);
-      self.initialized = true; // Trigger :initialized event
-
-      trigger('initialized');
-      return self;
-    };
+      f.init = function () {
+        if (!f.initialized) return f.on(c), k(), M(window, "resize", l), M(a, "scroll", d), C.call(q.instances, f), f.initialized = !0, u("initialized"), f;
+      };
+    }
   };
 
-  Scrollax.instances = [];
-  /**
-   * Send warning message to the browser.
-   *
-   * @param {String} message
-   *
-   * @return {Void}
-   */
-
-  function warn(message) {
-    if (console && console.warn) {
-      console.warn(namespace + ': ' + message);
-    } else {
-      throw namespace + ': ' + message;
-    }
-  }
-  /**
-   * Get Offset.
-   *
-   * @param {String} message
-   *
-   * @return {Void}
-   */
-
-
-  function getOffset(element) {
-    var isWin = !!('pageYOffset' in element);
-    return {
-      width: isWin ? window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth : element.offsetWidth,
-      height: isWin ? window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight : element.offsetHeight,
-      left: element[isWin ? 'pageXOffset' : 'scrollLeft'],
-      top: element[isWin ? 'pageYOffset' : 'scrollTop']
-    };
-  }
-  /**
-   * A JavaScript equivalent of PHP’s is_numeric.
-   *
-   * @param {Mixed} value
-   *
-   * @return {Boolean}
-   */
-
-
-  function is_numeric(value) {
-    return (typeof value === 'number' || typeof value === 'string') && value !== '' && !isNaN(value);
-  }
-  /**
-   * Make sure that number is within the limits.
-   *
-   * @param {Number} number
-   * @param {Number} min
-   * @param {Number} max
-   *
-   * @return {Number}
-   */
-
-
-  function within(number, min, max) {
-    return number < min ? min : number > max ? max : number;
-  }
-  /**
-   * Get element inline options.
-   *
-   * @param {Object}   $element    jQuery object with element.
-   *
-   * @return {Object}
-   */
-
-
-  function getInlineOptions($element) {
-    var data = $element.data(lownamespace.toLowerCase());
-    return data && eval("({" + data + "})") || {};
-  }
-  /**
-   * Check whether value is a window object.
-   *
-   * Uses duck typing to determine window. Without IE8 all we need is:
-   *
-   *   var type = Object.prototype.toString.call(val);
-   *   return type === '[object global]' || type === '[object Window]' || type === '[object DOMWindow]';
-   *
-   * @param  {Mixed} val
-   * @return {Boolean}
-   */
-
-
-  function isWindow(val) {
-    /* jshint eqeqeq:false */
-    var doc, docWin;
-    return !!(val && _typeof(val) === 'object' && _typeof(val.window) === 'object' && val.window == val && val.setTimeout && val.alert && (doc = val.document) && _typeof(doc) === 'object' && (docWin = doc.defaultView || doc.parentWindow) && _typeof(docWin) === 'object' && docWin == val);
-  }
-
-  ; // Returns element's position object relative to document, window, or other elements.
+  q.instances = [];
 
   (function () {
-    var k, doc, docEl, win, winTop, winLeft, box, relBox;
-    /**
-     * Poor man's shallow object extend;
-     *
-     * @param  {Object} a
-     * @param  {Object} b
-     * @return {Object}
-     */
+    var a, g, c, k, l, d, b, e;
 
-    function extend(a, b) {
-      for (k in b) {
-        a[k] = b[k];
-      }
-
-      return a;
-    }
-    /**
-     * Returns element's position object with `left`, `top`, `bottom`, `right`,
-     * `width`, and `height` properties indicating the position and dimensions
-     * of element on a page, or relative to other element.
-     *
-     * @param {Element} element
-     * @param {Element} [relativeTo] Defaults to `document.documentElement`.
-     *
-     * @return {Object|null}
-     */
-
-
-    _position = function position(element, relativeTo) {
-      doc = element.ownerDocument || element;
-      docEl = doc.documentElement;
-      win = isWindow(relativeTo) ? relativeTo : doc.defaultView || window; // normalize arguments
-
-      relativeTo = !relativeTo || relativeTo === doc ? docEl : relativeTo;
-      winTop = (win.pageYOffset || docEl.scrollTop) - docEl.clientTop;
-      winLeft = (win.pageXOffset || docEl.scrollLeft) - docEl.clientLeft;
-      box = {
+    _L = function L(u, p) {
+      g = u.ownerDocument || u;
+      c = g.documentElement;
+      k = Y(p) ? p : g.defaultView || window;
+      p = p && p !== g ? p : c;
+      l = (k.pageYOffset || c.scrollTop) - c.clientTop;
+      d = (k.pageXOffset || c.scrollLeft) - c.clientLeft;
+      b = {
         top: 0,
         left: 0
       };
 
-      if (element && element.getBoundingClientRect) {
-        // new object needed because DOMRect properties are read-only
-        box = extend({}, element.getBoundingClientRect()); // width & height don't exist in <IE9
+      if (u && u.getBoundingClientRect) {
+        var f = {},
+            q = u.getBoundingClientRect();
 
-        box.width = box.right - box.left;
-        box.height = box.bottom - box.top;
-      } else {
-        return null;
-      } // current box is already relative to window
+        for (a in q) {
+          f[a] = q[a];
+        }
 
+        b = f;
+        b.width = b.right - b.left;
+        b.height = b.bottom - b.top;
+      } else return null;
 
-      if (relativeTo === win) return box; // add window offsets, making the box relative to documentElement
-
-      box.top += winTop;
-      box.left += winLeft;
-      box.right += winLeft;
-      box.bottom += winTop; // current box is already relative to documentElement
-
-      if (relativeTo === docEl) return box; // subtract position of other element
-
-      relBox = _position(relativeTo);
-      box.left -= relBox.left;
-      box.right -= relBox.left;
-      box.top -= relBox.top;
-      box.bottom -= relBox.top;
-      return box;
+      if (p === k) return b;
+      b.top += l;
+      b.left += d;
+      b.right += d;
+      b.bottom += l;
+      if (p === c) return b;
+      e = _L(p);
+      b.left -= e.left;
+      b.right -= e.left;
+      b.top -= e.top;
+      b.bottom -= e.top;
+      return b;
     };
-  })(); // Event binding component with support for legacy browsers.
-
+  })();
 
   (function () {
-    /**
-     * Prevets default event action in IE8-.
-     */
-    function preventDefault() {
-      this.returnValue = false;
+    function a() {
+      this.returnValue = !1;
     }
-    /**
-     * Stops event propagation in IE8-.
-     */
 
-
-    function stopPropagation() {
-      this.cancelBubble = true;
+    function g() {
+      this.cancelBubble = !0;
     }
-    /**
-     * Bind `el` event `type` to `fn`.
-     *
-     * @param {Element}  el
-     * @param {String}   type
-     * @param {Function} fn
-     * @param {Boolean}  [capture]
-     *
-     * @return {Function} `fn`
-     */
 
+    M = window.addEventListener ? function (a, g, e, d) {
+      a.addEventListener(g, e, d || !1);
+      return e;
+    } : function (c, e, l) {
+      var d = e + l;
 
-    bind = window.addEventListener ? function (el, type, fn, capture) {
-      el.addEventListener(type, fn, capture || false);
-      return fn;
-    } : function (el, type, fn) {
-      var fnid = type + fn;
-
-      el[fnid] = el[fnid] || function () {
-        var event = window.event;
-        event.target = event.srcElement;
-        event.preventDefault = preventDefault;
-        event.stopPropagation = stopPropagation;
-        fn.call(el, event);
+      c[d] = c[d] || function () {
+        var b = window.event;
+        b.target = b.srcElement;
+        b.preventDefault = a;
+        b.stopPropagation = g;
+        l.call(c, b);
       };
 
-      el.attachEvent('on' + type, el[fnid]);
-      return fn;
+      c.attachEvent("on" + e, c[d]);
+      return l;
     };
-    /**
-     * Unbind `el` event `type`'s callback `fn`.
-     *
-     * @param {Element}  el
-     * @param {String}   type
-     * @param {Function} fn
-     * @param {Boolean}  [capture]
-     *
-     * @return {Function} `fn`
-     */
-
-    unbind = window.removeEventListener ? function (el, type, fn, capture) {
-      el.removeEventListener(type, fn, capture || false);
-      return fn;
-    } : function (el, type, fn) {
-      var fnid = type + fn;
-      el.detachEvent('on' + type, el[fnid]); // clean up reference to handler function, but with a fallback
-      // because we can't delete window object properties
+    N = window.removeEventListener ? function (a, g, e, d) {
+      a.removeEventListener(g, e, d || !1);
+      return e;
+    } : function (a, g, e) {
+      var d = g + e;
+      a.detachEvent("on" + g, a[d]);
 
       try {
-        delete el[fnid];
-      } catch (err) {
-        el[fnid] = undefined;
+        delete a[d];
+      } catch (b) {
+        a[d] = void 0;
       }
 
-      return fn;
+      return e;
     };
-  })(); // Feature detects
-
+  })();
 
   (function () {
-    var prefixes = ['', 'webkit', 'moz', 'ms', 'o'];
-    var el = document.createElement('div');
-
-    function testProp(prop) {
-      for (var p = 0, pl = prefixes.length; p < pl; p++) {
-        var prefixedProp = prefixes[p] ? prefixes[p] + prop.charAt(0).toUpperCase() + prop.slice(1) : prop;
-
-        if (el.style[prefixedProp] != null) {
-          return prefixedProp;
-        }
+    function a(a) {
+      for (var e = 0, d = g.length; e < d; e++) {
+        var b = g[e] ? g[e] + a.charAt(0).toUpperCase() + a.slice(1) : a;
+        if (null != c.style[b]) return b;
       }
-    } // Global support indicators
+    }
 
+    var g = ["", "webkit", "moz", "ms", "o"],
+        c = document.createElement("div");
+    da = a("transform");
+    ea = a("perspective") ? "translateZ(0) " : "";
+  })();
 
-    transform = testProp('transform');
-    gpuAcceleration = testProp('perspective') ? 'translateZ(0) ' : '';
-  })(); // Default options
-
-
-  Scrollax.defaults = {
-    horizontal: false,
-    // Enable for horizontal scrolling.
+  q.defaults = {
+    horizontal: !1,
     offset: 0,
-    // Target area offset from start (top in vert., left in hor.).
     parentSelector: null,
-    // Select only PARENTs that match this selector.
     elementsSelector: null,
-    // Select only PARALLAX_ELEMENTS that match this selector.
-    performanceTrick: false // Use this option to optimize your scroll performance. This option will freeze CSS Animations and pointer events during scrolling
+    performanceTrick: !1
+  };
+  window.Scrollax = q;
 
-  }; // Expose the Scrollax
+  e.fn.Scrollax = function (a, g) {
+    var c, k;
 
-  window.Scrollax = Scrollax; // Extend jQuery
+    if (!e.isPlainObject(a)) {
+      if ("string" === typeof a || !1 === a) c = !1 === a ? "destroy" : a, k = slice.call(arguments, 1);
+      a = {};
+    }
 
-  $.fn.Scrollax = function (options, callbackMap) {
-    var method, methodArgs; // Attributes logic
-
-    if (!$.isPlainObject(options)) {
-      if (typeof options === 'string' || options === false) {
-        method = options === false ? 'destroy' : options;
-        methodArgs = slice.call(arguments, 1);
-      }
-
-      options = {};
-    } // Apply to all elements
-
-
-    return this.each(function (i, element) {
-      // Call with prevention against multiple instantiations
-      var plugin = $.data(element, lownamespace);
-
-      if (!plugin && !method) {
-        // Create a new object if it doesn't exist yet
-        plugin = $.data(element, lownamespace, new Scrollax(element, options, callbackMap).init());
-      } else if (plugin && method) {
-        // Call method
-        if (plugin[method]) {
-          plugin[method].apply(plugin, methodArgs);
-        }
-      }
+    return this.each(function (l, d) {
+      var b = e.data(d, "scrollax");
+      b || c ? b && c && b[c] && b[c].apply(b, k) : e.data(d, "scrollax", new q(d, a, g).init());
     });
   };
 
-  $.Scrollax = function (options, callbackMap) {
-    $win.Scrollax(options, callbackMap);
+  e.Scrollax = function (a, e) {
+    ba.Scrollax(a, e);
   };
 
-  var css = '.scrollax-performance, .scrollax-performance *, .scrollax-performance *:before, .scrollax-performance *:after { pointer-events: none !important; -webkit-animation-play-state: paused !important; animation-play-state: paused !important; };',
-      head = document.head || document.getElementsByTagName('head')[0],
-      style = document.createElement('style');
-  style.type = 'text/css';
-
-  if (style.styleSheet) {
-    style.styleSheet.cssText = css;
-  } else {
-    style.appendChild(document.createTextNode(css));
-  }
-
-  head.appendChild(style); // AMD requirement
-
-  return Scrollax;
+  var v = document.head || document.getElementsByTagName("head")[0],
+      w = document.createElement("style");
+  w.type = "text/css";
+  w.styleSheet ? w.styleSheet.cssText = ".scrollax-performance, .scrollax-performance *, .scrollax-performance *:before, .scrollax-performance *:after { pointer-events: none !important; -webkit-animation-play-state: paused !important; animation-play-state: paused !important; };" : w.appendChild(document.createTextNode(".scrollax-performance, .scrollax-performance *, .scrollax-performance *:before, .scrollax-performance *:after { pointer-events: none !important; -webkit-animation-play-state: paused !important; animation-play-state: paused !important; };"));
+  v.appendChild(w);
+  return q;
 });
 
 /***/ }),
