@@ -56,4 +56,12 @@ Route::get('/contact', [
     'as'   => 'show_contact_path'
 ]);
 
-Route::view('/react', 'react');
+Route::get('/admin', [
+    'uses' => 'DashboardController@index',
+    'as'   => 'show-admin_path'
+]);
+
+Route::get('/admin/login', [
+    'uses' => 'DashboardController@login',
+    'as'   => 'show_login_admin_path'
+]);

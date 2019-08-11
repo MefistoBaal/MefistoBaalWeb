@@ -11,5 +11,8 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.react('resources/js/app.js', 'public/js').version()
-   .sass('resources/sass/app.scss', 'public/css').version();
+mix.js('resources/js/landing.js', 'public/js').version()
+    .sass('resources/sass/landing.scss', 'public/css').version();
+mix.js('resources/js/dashboard.js', 'public/js').version()
+    .sass('resources/sass/dashboard.scss', 'public/css').version();
+mix.js('resources/js/loginadmin.js', 'public/js').version();

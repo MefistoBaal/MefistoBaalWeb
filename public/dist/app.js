@@ -87,13 +87,13 @@
 /******/ ([
 /* 0 */
 /*!******************************************************************!*\
-  !*** multi ./node_modules/laravel-mix/src/app.js ./src/app.scss ***!
+  !*** multi ./node_modules/laravel-mix/src/landing.js ./src/landing.scss ***!
   \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-!(function webpackMissingModule() { var e = new Error("Cannot find module 'J:\\xampp\\htdocs\\MefistoBaal\\node_modules\\laravel-mix\\src\\app.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
-!(function webpackMissingModule() { var e = new Error("Cannot find module 'J:\\xampp\\htdocs\\MefistoBaal\\src\\app.scss'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+!(function webpackMissingModule() { var e = new Error("Cannot find module 'J:\\xampp\\htdocs\\MefistoBaal\\node_modules\\laravel-mix\\src\\landing.js'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+!(function webpackMissingModule() { var e = new Error("Cannot find module 'J:\\xampp\\htdocs\\MefistoBaal\\src\\landing.scss'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 
 
 /***/ })

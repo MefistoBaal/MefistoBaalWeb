@@ -1,4 +1,7 @@
 {
-    "/js/app.js": "/js/app.js?id=7df661f14f74a202869e",
-    "/css/app.css": "/css/app.css?id=20748d0bc5ea5aec2efb"
+    "/js/dashboard.js": "/js/dashboard.js?id=75daa314defef9a5b189",
+    "/js/landing.js": "/js/landing.js?id=87acfe3e1fd919abc9ef",
+    "/css/landing.css": "/css/landing.css?id=15c5d6c29497170723a2",
+    "/css/dashboard.css": "/css/dashboard.css?id=c90d33cc344f722f08ba",
+    "/js/loginadmin.js": "/js/loginadmin.js?id=3bff673dacf7910a0347"
 }

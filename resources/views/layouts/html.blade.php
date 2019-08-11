@@ -7,9 +7,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ mix('css/app.css')}}">
+    <link rel="stylesheet" href="{{ mix('css/landing.css')}}">
 
 </head>
 
@@ -32,13 +31,16 @@
                         </h1>
                         <ul>
 
-                            <li class="active"><a href="{{route('show_home_path') }}"><span><small>01</small>Home</span></a></li>
+                            <li class="active"><a href="{{route('show_home_path') }}"><span><small>01</small>Home</span></a>
+                            </li>
                             <li><a href="{{route('show_about_path')}}"><span><small>02</small>Resumen</span></a></li>
                             <li><a href="{{route('show_services_path')
                             }}"><span><small>03</small>Servicios</span></a></li>
-                            <li><a href="{{route('show_portfolio_path')}}"><span><small>04</small>Portafolio</span></a></li>
+                            <li><a href="{{route('show_portfolio_path')}}"><span><small>04</small>Portafolio</span></a>
+                            </li>
                             <li><a href="{{route('show_blog_path')}}"><span><small>05</small>Blog</span></a></li>
-                            <li><a href="{{route('show_contact_path')}}"><span><small>06</small>Contáctame</span></a></li>
+                            <li><a href="{{route('show_contact_path')}}"><span><small>06</small>Contáctame</span></a>
+                            </li>
                             @yield('extra_menu')
 
                         </ul>
@@ -54,7 +56,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="colorlib-navbar-brand">
-                            <a class="colorlib-logo" href="{{route('show_home_path')}}"><span class="logo-img" style="background-image: url({{asset('images/person_1.jpg')}});"></span>Santiago Hurtado</a>
+                            <a class="colorlib-logo" href="{{route('show_home_path')}}"><span class="logo-img" style="background-image: url({{asset('images/person_1.jpg')}});"></span>Santiago
+                                Hurtado</a>
                         </div>
                         <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
                     </div>
@@ -80,7 +83,8 @@
                     <div class="row slider-text align-items-center text-center justify-content-center" data-scrollax-parent="true">
                         <div class="col-md-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                             <p><a href="#" class="scroll">Soy de Colombia</a></p>
-                            <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">Web Developer</h1>
+                            <h1 class="mb-3" data-scrollax="properties: {translateY: '30%', opacity: 1.6}">Web
+                                Developer</h1>
                         </div>
                     </div>
                 </div>
@@ -145,7 +149,7 @@
 
 </div>
 
-<script src="{{ mix('js/app.js')}}"></script>
+<script src="{{ mix('js/landing.js')}}"></script>
 
 @yield('scripts')
 
