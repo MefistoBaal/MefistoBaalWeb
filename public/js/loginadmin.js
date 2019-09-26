@@ -21684,7 +21684,7 @@ __webpack_require__(/*! @coreui/coreui/dist/js/coreui.min */ "./node_modules/@co
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! J:\Servers\htdocs\MefistoBaal\resources\js\loginadmin.js */"./resources/js/loginadmin.js");
+module.exports = __webpack_require__(/*! /srv/http/MefistoBaal/resources/js/loginadmin.js */"./resources/js/loginadmin.js");
 
 
 /***/ })

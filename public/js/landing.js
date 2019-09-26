@@ -38881,9 +38881,9 @@ __webpack_require__(/*! ./components/landing/main */ "./resources/js/components/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! J:\Servers\htdocs\MefistoBaal\resources\js\landing.js */"./resources/js/landing.js");
-__webpack_require__(/*! J:\Servers\htdocs\MefistoBaal\resources\sass\landing.scss */"./resources/sass/landing.scss");
-module.exports = __webpack_require__(/*! J:\Servers\htdocs\MefistoBaal\resources\sass\dashboard.scss */"./resources/sass/dashboard.scss");
+__webpack_require__(/*! /srv/http/MefistoBaal/resources/js/landing.js */"./resources/js/landing.js");
+__webpack_require__(/*! /srv/http/MefistoBaal/resources/sass/landing.scss */"./resources/sass/landing.scss");
+module.exports = __webpack_require__(/*! /srv/http/MefistoBaal/resources/sass/dashboard.scss */"./resources/sass/dashboard.scss");
 
 
 /***/ })

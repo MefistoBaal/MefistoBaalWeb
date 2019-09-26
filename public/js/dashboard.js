@@ -48099,9 +48099,9 @@ var brandBoxChartOptions = {
       hitRadius: 10,
       hoverRadius: 4,
       hoverBorderWidth: 3
-    } // eslint-disable-next-line no-unused-vars
+    }
+  } // eslint-disable-next-line no-unused-vars
 
-  }
 };
 var brandBoxChart1 = new Chart($('#social-box-chart-1'), {
   type: 'line',
@@ -48205,7 +48205,7 @@ __webpack_require__(/*! ./components/dashboard/main */ "./resources/js/component
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! J:\Servers\htdocs\MefistoBaal\resources\js\dashboard.js */"./resources/js/dashboard.js");
+module.exports = __webpack_require__(/*! /srv/http/MefistoBaal/resources/js/dashboard.js */"./resources/js/dashboard.js");
 
 
 /***/ }),
